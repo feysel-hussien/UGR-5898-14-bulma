@@ -2,36 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>myhobbies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 </head>
-<header>
-    <h1 style="text-align:center"> MY HOBBIES </h1>
-    <hr>
-</header>
 <body>
-<img style="text-align:center" src="images/football.jpg" width="700" height="400">
-<h4>For me, it's not just a hobby, its far more than that.Football, the beautiful game captivated my passion since I was a young boy. As I grew older, my love for football only deepened.Football is a sport that can be enjoyed by people of all ages and abilities. It is a great way to stay active and healthy, and it is a great way to make new friends and have fun. If you're looking for a hobby that will challenge you, teach you new things, and bring you joy, I highly recommend football.
-    <h3 style="text-align:center">Here's a video of me playing football with my friends.</h3>
-<video controls muted loop src="images/footballvid.mp4" width="400" height="300"  type="video/mp4">>
-    </video>
- </h4>
-<h2 style="text-align:center">FOOD
-</h2>
-<img  src="images/food.jpg" width="300" height="400">
-<h4>Another hobby of me. Food is a source of nourishment, joy, and cultural exploration, and it's no wonder that many people find themselves drawn to the culinary world. My friends and I really enjoy food. It's a means of entertainment for us. </h4>
-<img src="images/yo.jpg" width="200" height="400">
-<img src="images/ole.jpg" width="200" height="400">
-<h3 style="text-align:center"> My friends love food!</h3>
-</body>
-<footer>
-    <hr>
-    <div style="text-align:center" class="navbar">
 
-        <a href="personal%20website.html" >Home Page</a>
-        <a href="hobbies.html" class="active" >Hobbies</a>
-        <a href="achievments.html">Achievment</a>
-        <a href="place.html">Place Visited</a>
-        <a href="contact.html">Contact</a>
+<section class="section has-background-warning"> 
+    <div class="container">
+        <header class="header  has-background-warning">
+            <h1 class="title is-italic is-family-monospace">MY HOBBIES</h1>
+            <hr class="is-divider">
+        </header>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+
+            <!-- Football Section -->
+            <div class="column">
+                <div class="box">
+                    <h2 class="title has-text-info is-family-monospace">FOOTBALL</h2>
+                    <figure class="image is-4by3">
+                        <img src="football.jpg" alt="Football Image">
+                    </figure>
+                    <p>For me, it's not just a hobby; it's far more than that. Football, the beautiful game, captivated my passion since I was a young boy. As I grew older, my love for football only deepened. Football is a sport that can be enjoyed by people of all ages and abilities. It is a great way to stay active and healthy, and it is a great way to make new friends and have fun. If you're looking for a hobby that will challenge you, teach you new things, and bring you joy, I highly recommend football.</p>
+                    <p>Here's a video of me playing football with my friends:</p>
+                    <video controls muted loop class="mb-4">
+                        <source src="footballvid.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            
+            <div class="column">
+                <div class="box">
+                    <h2 class="title has-text-info is-family-monospace">FOOD</h2>
+                    <figure class="image is-4by6">
+                        <img src="food.jpg" alt="Food Image">
+                    </figure>
+                    <p>Another hobby of mine. Food is a source of nourishment, joy, and cultural exploration, and it's no wonder that many people find themselves drawn to the culinary world. My friends and I really enjoy food. It's a means of entertainment for us.</p>
+
+                    
+                    <div class="columns">
+                        <div class="column">
+                            <figure class="image is-3by4 mb-4">
+                                <img src="yo.jpg" alt="Yo Image">
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <figure class="image is-4by5 mb-4">
+                                <img src="ole.jpg" alt="Ole Image">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <p class="is-italic has-text-danger ">My friends love food!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer has-background-warning">
+    <hr>
+    <div class="container">
+        <div class="navbar is-primary is-flex is-justify-content-space-between has-background-warning">
+            <a href="new personal website.html" class="navbar-item">Home Page</a>
+            <a href="newhobbies.html" class="navbar-item is-active has-background-dark">Hobbies</a>
+            <a href="new achiev.html" class="navbar-item">Achievement</a>
+            <a href="new placevisited.html" class="navbar-item">Place Visited</a>
+            <a href="new contact.html" class="navbar-item">Contact</a>
+        </div>
     </div>
 </footer>
+
+</body>
 </html>
